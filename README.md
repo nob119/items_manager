@@ -1,17 +1,18 @@
-## 基于SpringBoot+Mybatis+Thymeleaf商品信息管理系统
+### 基于SpringBoot+Mybatis+Thymeleaf商品信息管理系统
 
-### 主要用到的技术：
+### 主要用到的技术及工具：
 - 使用maven进行项目构建 
 - 使用Springboot+Mybatis搭建整个系统 
 - 使用Thymeleaf模板技术实现页面静态化
 - 使用框架Bootstrap、JQuery开发前端界面  
 - 使用MySQL和MongoDB分别存储数据和图片
 - 使用Redis缓存来提升数据库查询性能
+- 使用restful架构
+- 使用Lombok编译辅助插件
+- 使用MyBatis generate自动生成代码
 
 
 ### 主要分为四个模块:
-
-
 - **用户管理模块** 
 ：用户登录、注册、密码找回（通过邮箱方式）、用户信息修改、密码修改
 
