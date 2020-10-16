@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.UUID;
 
 public class MongoUtilTest {
-    @Test
+   /* @Test
     public void uploadFileTest(){
         MongoUtil mongoUtil = new MongoUtil();
         File file = new File("C:\\Users\\jiangyunxiong\\Desktop\\cat.jpg");
@@ -71,5 +71,5 @@ public class MongoUtilTest {
         String collectionName = "myimage";
         mongoUtil.batchDeleteFileByIds(ids);
         System.out.println("batch delete Files success");
-    }
+    }*/
 }
